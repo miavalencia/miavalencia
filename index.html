@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<html lang="en"></html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+<title> Home </title>
+
+<body>
+<!-- Navigation -->
+<nav id= "nav">
+    <a rel="preconnecting" href="index.html"> <strong> Home </strong></a>
+    <a rel="preconnecting" href="competition/caseCompetition.html">Competitions</a>
+    <a rel="preconnecting" href="hobbies/hobby.html">Hobbies</a>
+    <a rel="preconnecting" href="trips/MiasTrips.html">Trips</a>
+</nav>
+
+<br>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+  
+<div class ="slideshow">
+    <div class="slideshow-item">
+        <img class="mySlides" src="uw.jpg"
+         alt="Mia at UW-Madison">
+        <div class="slideshow-item-text"> 
+            <h1> I'M </h1>
+        </div>
+    </div>
+    <div class="slideshow-item">
+        <img class="mySlides" src="hs.jpg"
+         alt="Mia Graduating High School">
+        <div class="slideshow-item-text"> 
+            <h1> MIA </h1>
+        </div>
+    </div>
+    <div class="slideshow-item">
+        <img class="mySlides" src="flying.jpg"
+        alt="Mia in Catalina Island">
+        <div class="slideshow-item-text"> 
+            <h1> VALENCIA </h1>
+        </div>
+    </div>
+</div>
+
+<!-- Heading -->
+<h3 id="heading">California Raised. Badger For Life. Future New Yorker.</h3>
+
+<!-- Description -->
+<section class="image-txt-container">
+    <img  id="portrait" src= "me.jpg" width=600 height=700 alt="Mia Valencia">
+    <h4 id="question"> Who Am I?
+    <br>
+    <ul id="bullets">
+        <li id="one">Exuberant</li>
+        <li id="two">Determined</li>
+        <li id="three">Creative</li>
+    </ul> </h4>
+</section>
+
+<!-- About -->
+<section id="bio"> 
+    <p>
+        I am originally from Pasadena, California and enjoyed my upbringing walking to Rose Bowl Games, 
+        hiking the San Gabriel Mountains, and surfing the coast. Upon graduation from high school, I began my journey 
+        at UW-Madison as a<a id= "major" href="https://guide.wisc.edu/undergraduate/human-ecology/consumer-science/retailing-consumer-behavior-bs/#learningoutcomestext">Consumer Behavior and Marketplace Studies</a>major. 
+        During my time at UW, I decided to also obtain minors in<a id= "major" href="https://guide.wisc.edu/undergraduate/letters-science/computer-sciences/computer-sciences-certificate/#learningoutcomestext">Computer Science</a>
+        as well as<a id= "major" href="https://guide.wisc.edu/undergraduate/letters-science/communication-arts/digital-studies-certificate/#learningoutcomestext">Digital Studies</a>. As with the current rise of technology-based consumerism, the ways in which people buy 
+        have been forever transformed. I am fascinated by how individual's interactions with products and brands have evolved with these changes and 
+        the impacts I can have on improving these. Over this previous summer, I worked at Loreal under the Urban Decay brand and got hands-on experience 
+        in these fields and was able to learn how they function in a corporation. After my graduation from UW-Madison, I have accepted a return offer 
+        with the Loreal Groupe where I will be entering their Marketing Trainee Program in New York City. As I complete my education, 
+        I hope to refine my skills in consumer relations, technology, and creativity to succeed in my career at Loreal after graduation.  </p>
+    </p>
+</section>
+
+<h2 id="pdf"><a href="Mia Valencia Resume.pdf">Mia Valencia Resume</a><h2></h2>
+
+<!-- Footer -->
+<footer> Email: mavalencia@wisc.edu Tel: 626-773-1815</footer>
+
+</body>
+</html>
+
